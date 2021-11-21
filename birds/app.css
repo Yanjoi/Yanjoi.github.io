@@ -1,0 +1,55 @@
+body {
+    background-color: #00cec9;
+    font-family: 'Noto Sans', sans-serif; 
+}
+
+#mainNavBar .navbar-brand {
+    color: #0984e3;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavBar .nav-link {
+    color: white;
+}
+
+#mainNavBar .nav-link:hover {
+    color: #0984e3;
+}
+
+#headingGroup h2 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h2 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+.blurb h2 {
+    color: #0c3a5e;
+    font-weight: 100;
+    font-size: 2.5rem;
+
+}
+
+.blurb p {
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    color: #535d66;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar.scrolled {
+    background:  #9bb7cf;
+    transition: background 500ms;
+}
+

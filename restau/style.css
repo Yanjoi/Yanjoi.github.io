@@ -1,0 +1,55 @@
+
+
+@media only screen (min-width: 480px) and (max-width: 768px;), (orientation: portrait) {
+    .nav-item {
+        display: inline-block;
+    }
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-size: 1rem;
+
+}
+
+.jumbotron p {
+    font-size: 1rem;
+
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.card{
+    display: inline-block;
+    align-items: center;
+} 
+
+.card-body {
+    align-items: center;
+    align-content: center;
+}
+
+.list-group {
+    background-color: #343a40; 
+    padding-bottom: 20px;
+}
+.col {
+    width: 200px;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    color: white;
+}
+
+.display-4 {
+    padding-top: 27px;
+}

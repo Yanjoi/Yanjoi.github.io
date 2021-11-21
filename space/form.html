@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Around the Universe</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">    
+</head>
+<body>
+    <!--Use GET not POST-->
+
+            <form method="GET"> 
+                    <h1>Around the Universe</h1>
+                <div class="info">
+                   <p>
+                        <label>First Name:</label> <input type="text" name="firstname">
+                    </p><br>
+                   <p> 
+                       <label>Last Name:</label> <input type="text" name="lastname">
+                    </p><br>
+                   <p> 
+                       <label>E-mail:</label> <input type="text"required name="email">
+                    </p><br>
+                   <p> 
+                       <label>Password:</label> <input type="password" min="5" name="password">
+                    </p><br>
+                   <p> 
+                       <label>Birthdate:</label> <input type="date" name="birthdate">
+                    </p><br>
+                </div>
+
+        Gender: <br><br>
+
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label><br><br>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label><br><br>
+
+       Languages:<br><br>
+        <input type="checkbox" name="english" id="english">
+            <label for="english">English</label>
+        
+       <input type="checkbox" name="spanish" id="spanish">
+            <label for="spanish">Spanish</label>
+        
+        <input type="checkbox" name="french" id="french">
+            <label for="french">French</label>
+        
+        <input type="checkbox" name="portuguese" id="portuguese">
+            <label for="portuguese">Portuguese</label> <br><br>
+        
+        Number of passengers:<br><br>
+        <select name="passengers">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3s</option>
+
+        </select><br><br>
+        <input class="formbutton" type="submit" value="Register">
+        <input class="formbutton" type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
