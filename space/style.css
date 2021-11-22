@@ -1,48 +1,59 @@
 body, html {
     background-color: #0F0D16;
-    margin: 0 auto;
-    height: auto;
+    margin: 0 auto;  
+    box-sizing: border-box;
 }
 
-.nav {
-    background-color: #0F0D16;
-    margin-bottom: 0px;
-    height: 10px;
 
+.nav ul {
+   max-width: 100%;
+   padding: 0;
+   border-bottom: 1px solid rgb(197, 196, 196);
 }
 
 .nav li {
-   list-style-type:none;
-   display: inline-block; 
-   font-size: 18px;
-   margin-left: 5px;
-   font-family: 'Aleo', serif;
-   cursor: pointer;
-   
-}
-
-.nav li a{
-    text-decoration:none;
-    color: rgb(194, 192, 229);
-}
-
-.header {
-
-    background: url(images/shuttle.jpg) no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding-left: 20px;
-    height: 700px;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-.statement {
-    position: relative;
-    top: 15%;
+    text-align: center;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Aleo', serif;
+    cursor: pointer;
+    padding: 10px;
+ }
  
+ .nav li a{
+     text-decoration:none;
+     color: rgb(194, 192, 229);
+     padding: 10px;
+ }
+
+@media (min-width: 768px) {
+    .nav {
+        margin: 30px;
+        /* padding: 15px; */
+        text-align: right;
+    } 
+    .nav li {
+        border-right: 1px solid rgb(197, 196, 196);
+        display: inline-block;
+    }
+    .nav li:last-child {
+        border: none;
+    }
 }
 
+.container {
+    text-align: center;
+    margin: 30px;
+}
+
+.hero {
+    max-width: 100%;
+    height: auto;
+}
+
+.header .statement {
+   text-align: center;
+}
 
 h1 {
     font-size: 35px;
@@ -56,8 +67,8 @@ h1 {
 .statement p {
     font-family: 'Aleo', serif;
     font-size: 18px;
-    width: 480px;
     color: rgb(194, 192, 229);
+
 
 }
 
@@ -139,28 +150,15 @@ form > h1 {
     color: rgb(140, 136, 172);
 }
 
-
 .footer {
-    position: relative;
-    bottom: 2px;
+    margin-top: 50px;
     text-align: center;
-    padding: 20px;
-    height: 20%;
 }
 
 .footer a {
     text-decoration: none;
     color:rgb(140, 136, 172);
     padding: 5px;
-}
-
-@media only screen (min-width: 480px) and (max-width: 768px), (orientation: portrait) {
-    html {
-        width: 100%;
-        height: auto;
-    }
-    body {
-        width: 100%;
-        height: auto;
-    }
-}
+    font-family: 'Aleo', serif;
+    font-size: 15px;
+} 
